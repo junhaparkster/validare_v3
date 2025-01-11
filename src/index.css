@@ -1,0 +1,32 @@
+body {
+      margin: 0;
+      font-family: 'SF Pro Display', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #f0f0f0;
+      background: linear-gradient(to bottom, rgba(255, 69, 0, 0.2), black 200px);
+    }
+    
+    #root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      min-height: 100vh;
+    }
+    @font-face {
+      font-family: 'Vitesse Bold';
+      src: url('https://fonts.cdnfonts.com/s/17719/VitesseBold.woff') format('woff');
+    }
+    @font-face {
+      font-family: 'Open Sans';
+      src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap') format('woff2');
+    }
+    @font-face {
+      font-family: 'Helvetica';
+      src: url('https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap') format('woff2');
+    }
+    @font-face {
+      font-family: 'Inter';
+      src: url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap') format('woff2');
+    }
